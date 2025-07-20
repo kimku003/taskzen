@@ -1,0 +1,45 @@
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environnements
+.env
+.env.*
+
+# VSCode
+.vscode/
+
+# Supabase migrations (optionnel, à garder si tu veux versionner les migrations)
+# supabase/.temp/
+
+# Fichiers temporaires
+*.swp
+*.swo
+
+# Autres fichiers générés
+coverage/
+
+# Fichiers d'indexation ou de cache
+.idx/
+
+# Autres fichiers personnalisés
+.modified
+*storybook.log
+storybook-static
+
+# SWC cache
+.swc/
+
+# TypeScript build info
+tsconfig.tsbuildinfo

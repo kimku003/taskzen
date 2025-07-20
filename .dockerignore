@@ -1,0 +1,31 @@
+# .dockerignore
+
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Build artifacts
+.next
+dist
+build
+tsconfig.tsbuildinfo
+
+# Dependencies
+node_modules
+
+# Local environment
+.env.local
+*.log
+
+# IDE
+.vscode
+.idea
+
+# Test files
+__mocks__
+jest.config.ts
+jest.setup.ts
